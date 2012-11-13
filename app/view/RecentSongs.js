@@ -32,7 +32,7 @@ Ext.define('CRWeb.view.RecentSongs', {
 							'Content-Type': 'application/json',
 							'content-Length': '0'
 						},
-						url: 'http://cr.xeago.eu/RecentSongsService.asmx/RecentSongs',
+						url: 'http://www.carnaval-radio.nl/RecentSongsService.asmx/RecentSongs',
 						reader: {
 							type: 'json',
 							rootProperty: 'd'
@@ -43,7 +43,7 @@ Ext.define('CRWeb.view.RecentSongs', {
 				},    
         disableSelection: true,
 
-        emptyText: '<p class="no-searches">No Songs Found</p>',
+        emptyText: '<p class="no-searches">Geen liedjes gevonden</p>',
 		//		itemTpl:'{song}',
 		itemTpl: Ext.create('Ext.XTemplate',                 
          //   '<div>',
